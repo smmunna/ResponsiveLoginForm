@@ -1,0 +1,66 @@
+body{
+    overflow: hidden;
+}
+.main{
+    position: relative;
+    height: 700px;
+    background: rgb(242,7,199);
+background: linear-gradient(70deg, rgba(242,7,199,0.5223039899553572) 0%, rgba(240,95,12,1) 100%, rgba(246,3,103,1) 100%);
+}
+.custom-shape-divider-bottom-1663870202 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1663870202 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 128px;
+}
+
+.custom-shape-divider-bottom-1663870202 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* !Image Designing */
+.img{
+    height: 400px;
+    width: 400px;
+    padding: 12px;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+/* !My form Design Part */
+.myform{
+    margin-top: 12%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.myform h3{
+    font-size: 42px;
+    padding: 12px;
+    margin-left: 30%;
+}
+ input{
+    padding: 10px;
+    width: 50%;
+    margin: 10px;
+    margin-left: 30%;
+}
+label{
+    margin: 10px;
+    margin-left: 30%;
+}
+button{
+    margin: 10px;
+    margin-left: 30%;
+    margin-bottom: 22px;
+    width: 30%;
+    padding: 8px;
+}
