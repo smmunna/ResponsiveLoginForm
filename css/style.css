@@ -1,6 +1,14 @@
+/* 
+
+    @Author: Minhazul Abedin Munna
+    @Date: 22 September 2022
+    @Time: 01:38 PM
+
+*/
+
 body {
-    overflow-x: hidden;
- overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 .main {
   position: relative;
@@ -107,87 +115,130 @@ button:focus {
   outline: none;
 }
 
-.footer{
-    margin-top: 14%;
-    height: 200px;
-    /* background-color: #fbafe3; */
+.footer {
+  margin-top: 10%;
+  height: 100px;
+  /* background-color: #fbafe3; */
 }
-.footer p{
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 5%;
-    text-align: center;
+.footer p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5%;
+  text-align: center;
 }
+.social {
+  text-align: center;
+  margin-bottom: 12%;
+}
+.social a {
+  text-decoration: none;
+}
+
 /* !Responsive Design */
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
-    .main {
-        height: 800px;
-      }
-      .custom-shape-divider-bottom-1663870202 svg {
-        height: 120px;
-      }
-    
+  .main {
+    height: 800px;
+  }
+  .custom-shape-divider-bottom-1663870202 svg {
+    height: 120px;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 2%;
+    height: 50px;
+  }
+  .footer p {
+    padding-top: 2%;
+  }
 }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-    .custom-shape-divider-bottom-1663870202 svg {
-        height: 110px;
-      }
+  .custom-shape-divider-bottom-1663870202 svg {
+    height: 110px;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 2%;
+    height: 50px;
+  }
+  .footer p {
+    padding-top: 2%;
+  }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-    .main {
-        height: 850px;
-      }
-      .custom-shape-divider-bottom-1663870202 svg {
-        height: 120px;
-      }
-    
-      .img {
-        height: 250px;
-        width: 250px;
-        margin-left: 32%;
-      }
-      .myform h3 {
-        margin-left: 0;
-      }
-      .myform label {
-        margin-left: 2%;
-      }
-      .myform input {
-        margin-left: 2%;
-        width: 96%;
-      }
+  .main {
+    height: 850px;
+  }
+  .custom-shape-divider-bottom-1663870202 svg {
+    height: 120px;
+  }
+
+  .img {
+    height: 250px;
+    width: 250px;
+    margin-left: 32%;
+  }
+  .myform h3 {
+    margin-left: 0;
+  }
+  .myform label {
+    margin-left: 2%;
+  }
+  .myform input {
+    margin-left: 2%;
+    width: 96%;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 2%;
+    height: 50px;
+  }
+  .footer p {
+    padding-top: 2%;
+  }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-    .main {
-        height: 540px;
-      }
-      .custom-shape-divider-bottom-1663870202 svg {
-        height: 110px;
-      }
-    
-      .img {
-        height: 150px;
-        width: 150px;
-        margin-left: 32%;
-      }
-      .myform h3 {
-        margin-left: 0;
-      }
-      .myform label {
-        margin-left: 2%;
-      }
-      .myform input {
-        margin-left: 2%;
-        width: 96%;
-      }
+  .main {
+    height: 540px;
+  }
+  .custom-shape-divider-bottom-1663870202 svg {
+    height: 110px;
+  }
+
+  .img {
+    height: 150px;
+    width: 150px;
+    margin-left: 32%;
+  }
+  .myform h3 {
+    margin-left: 0;
+  }
+  .myform label {
+    margin-left: 2%;
+  }
+  .myform input {
+    margin-left: 2%;
+    width: 96%;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 2%;
+    height: 50px;
+  }
+  .footer p {
+    padding-top: 2%;
+  }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
@@ -202,7 +253,7 @@ button:focus {
   .img {
     height: 150px;
     width: 150px;
-    margin-top: 30%;
+    margin-top: 35%;
     margin-left: 32%;
   }
   .myform h3 {
@@ -216,5 +267,12 @@ button:focus {
     width: 96%;
   }
 
-
+  /* Footer */
+  .footer {
+    margin-top: 2%;
+    height: 50px;
+  }
+  .footer p {
+    padding-top: 2%;
+  }
 }
