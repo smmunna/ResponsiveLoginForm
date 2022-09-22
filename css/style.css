@@ -1,5 +1,6 @@
 body {
-  overflow: hidden;
+    overflow-x: hidden;
+ overflow-y: scroll;
 }
 .main {
   position: relative;
@@ -106,6 +107,17 @@ button:focus {
   outline: none;
 }
 
+.footer{
+    margin-top: 14%;
+    height: 200px;
+    /* background-color: #fbafe3; */
+}
+.footer p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    text-align: center;
+}
 /* !Responsive Design */
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
