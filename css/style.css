@@ -1,94 +1,208 @@
-body{
-    overflow: hidden;
+body {
+  overflow: hidden;
 }
-.main{
-    position: relative;
-    height: 700px;
-    background: rgb(242,7,199);
-background: linear-gradient(70deg, rgba(242,7,199,0.5223039899553572) 0%, rgba(240,95,12,1) 100%, rgba(246,3,103,1) 100%);
+.main {
+  position: relative;
+  height: 700px;
+  background: rgb(242, 7, 199);
+  background: linear-gradient(
+    70deg,
+    rgba(242, 7, 199, 0.5223039899553572) 0%,
+    rgba(240, 95, 12, 1) 100%,
+    rgba(246, 3, 103, 1) 100%
+  );
 }
 .custom-shape-divider-bottom-1663870202 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1663870202 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 128px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 128px;
 }
 
 .custom-shape-divider-bottom-1663870202 .shape-fill {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 /* !Image Designing */
-.img{
-    height: 400px;
-    width: 400px;
-    padding: 12px;
-    margin-left: 15%;
-    margin-top: 10%;
+.img {
+  height: 400px;
+  width: 400px;
+  padding: 12px;
+  margin-left: 15%;
+  margin-top: 10%;
 }
 /* !My form Design Part */
-.myform{
-    margin-top: 12%;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+.myform {
+  margin-top: 12%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.myform h3{
-    font-size: 42px;
-    padding: 12px;
-    margin-left: 30%;
+.myform h3 {
+  font-weight: 550;
+  font-size: 42px;
+  padding: 12px;
+  margin-left: 30%;
+  font-family: Arial, Helvetica, sans-serif;
 }
- input{
-    background-color: #F57398;
-    font-size: 20px;
-    padding: 10px;
-    width: 50%;
-    margin: 10px;
-    margin-left: 30%;
-    box-shadow: 0px -1px 8px 0px rgba(42,42,42,.75); text-shadow:0px 0px 0px rgba(42,42,42,.75);
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f57398;
+  font-size: 20px;
+  padding: 10px;
+  width: 50%;
+  margin: 10px;
+  margin-left: 30%;
+  box-shadow: 0px -1px 8px 0px rgba(42, 42, 42, 0.75);
+  text-shadow: 0px 0px 0px rgba(42, 42, 42, 0.75);
 }
-input:focus{
-    outline:none;
+input:focus {
+  outline: none;
 }
-label{
-    margin: 10px;
-    margin-left: 30%;
+label {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px;
+  margin-left: 30%;
+  font-family: Arial, Helvetica, sans-serif;
 }
-button{
-    margin: 10px;
-    margin-left: 30%;
-    margin-bottom: 22px;
-    width: 30%;
-    padding: 8px;
+button {
+  margin: 10px;
+  margin-left: 30%;
+  margin-bottom: 22px;
+  width: 30%;
+  padding: 8px;
 
-    box-shadow:inset 0px 1px 0px 0px #fbafe3;
-	background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
-	background-color:#ff5bb0;
-	border-radius:6px;
-	border:1px solid #ee1eb5;
-	display:inline-block;
-	cursor:pointer;
-	color:#201414;
-	font-family:Arial;
-	font-size:20px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #c70067;
+  box-shadow: inset 0px 1px 0px 0px #fbafe3;
+  background: linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+  background-color: #ff5bb0;
+  border-radius: 6px;
+  border: 1px solid #ee1eb5;
+  display: inline-block;
+  cursor: pointer;
+  color: #201414;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 540;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #c70067;
+  font-family: Arial, Helvetica, sans-serif;
 }
-button:hover{
-    background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
-	background-color:#ef027d;
+button:hover {
+  background: linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+  background-color: #ef027d;
 }
-button:focus{
-    outline: none;
+button:focus {
+  outline: none;
+}
+
+/* !Responsive Design */
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    .main {
+        height: 800px;
+      }
+      .custom-shape-divider-bottom-1663870202 svg {
+        height: 120px;
+      }
+    
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .custom-shape-divider-bottom-1663870202 svg {
+        height: 110px;
+      }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .main {
+        height: 850px;
+      }
+      .custom-shape-divider-bottom-1663870202 svg {
+        height: 120px;
+      }
+    
+      .img {
+        height: 250px;
+        width: 250px;
+        margin-left: 32%;
+      }
+      .myform h3 {
+        margin-left: 0;
+      }
+      .myform label {
+        margin-left: 2%;
+      }
+      .myform input {
+        margin-left: 2%;
+        width: 96%;
+      }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .main {
+        height: 540px;
+      }
+      .custom-shape-divider-bottom-1663870202 svg {
+        height: 110px;
+      }
+    
+      .img {
+        height: 150px;
+        width: 150px;
+        margin-left: 32%;
+      }
+      .myform h3 {
+        margin-left: 0;
+      }
+      .myform label {
+        margin-left: 2%;
+      }
+      .myform input {
+        margin-left: 2%;
+        width: 96%;
+      }
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .main {
+    height: 600px;
+  }
+  .custom-shape-divider-bottom-1663870202 svg {
+    height: 110px;
+  }
+
+  .img {
+    height: 150px;
+    width: 150px;
+    margin-top: 30%;
+    margin-left: 32%;
+  }
+  .myform h3 {
+    margin-left: 0;
+  }
+  .myform label {
+    margin-left: 2%;
+  }
+  .myform input {
+    margin-left: 2%;
+    width: 96%;
+  }
+
+
 }
