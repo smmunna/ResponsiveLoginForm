@@ -48,10 +48,16 @@ background: linear-gradient(70deg, rgba(242,7,199,0.5223039899553572) 0%, rgba(2
     margin-left: 30%;
 }
  input{
+    background-color: #F57398;
+    font-size: 20px;
     padding: 10px;
     width: 50%;
     margin: 10px;
     margin-left: 30%;
+    box-shadow: 0px -1px 8px 0px rgba(42,42,42,.75); text-shadow:0px 0px 0px rgba(42,42,42,.75);
+}
+input:focus{
+    outline:none;
 }
 label{
     margin: 10px;
@@ -63,4 +69,26 @@ button{
     margin-bottom: 22px;
     width: 30%;
     padding: 8px;
+
+    box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+	background-color:#ff5bb0;
+	border-radius:6px;
+	border:1px solid #ee1eb5;
+	display:inline-block;
+	cursor:pointer;
+	color:#201414;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c70067;
+}
+button:hover{
+    background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+	background-color:#ef027d;
+}
+button:focus{
+    outline: none;
 }
